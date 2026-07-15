@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Áreas sem valor de indexação (reservado para uso futuro)
+Disallow: /carrinho
+Disallow: /checkout
+Disallow: /conta
+Disallow: /admin
+Disallow: /*?*
+
+Sitemap: https://onattural.com/sitemap.xml
