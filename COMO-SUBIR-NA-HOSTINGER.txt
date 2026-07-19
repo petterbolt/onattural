@@ -1,0 +1,45 @@
+SITE O NATURAL — COMO PUBLICAR NA HOSTINGER
+============================================
+
+Você só precisa de 1 arquivo: index.html
+(as fotos, fontes e scripts já estão embutidos dentro dele)
+
+
+OPÇÃO A — Pelo Gerenciador de Arquivos (mais fácil)
+---------------------------------------------------
+1. Entre no painel da Hostinger (hPanel): https://hpanel.hostinger.com
+2. No menu, clique em "Sites" e depois em "Gerenciar" no seu domínio.
+3. Clique em "Gerenciador de Arquivos".
+4. Abra a pasta "public_html".
+5. Se já existir um arquivo index.html ou default.php de exemplo, apague.
+6. Clique em "Enviar arquivos" (ícone de seta para cima, no topo).
+7. Selecione o index.html desta pasta e confirme.
+8. Pronto! Abra seu domínio no navegador para ver o site no ar.
+
+
+OPÇÃO B — Por FTP (FileZilla)
+-----------------------------
+1. No hPanel, vá em "Arquivos" > "Contas FTP" e copie os dados
+   (servidor/host, usuário e senha).
+2. Abra o FileZilla e conecte com esses dados.
+3. No lado direito (servidor), entre na pasta "public_html".
+4. Arraste o index.html desta pasta para dentro de "public_html".
+5. Pronto! Abra seu domínio para ver o site.
+
+
+DICAS
+-----
+- O arquivo PRECISA se chamar exatamente "index.html" (tudo minúsculo)
+  para o domínio abrir o site automaticamente.
+- Para atualizar o site depois, basta enviar o novo index.html por cima
+  (substituindo o antigo).
+- HTTPS (cadeado): no hPanel, em "Segurança" > "SSL", ative o certificado
+  gratuito caso ainda não esteja ativo.
+
+
+GOOGLE TAG MANAGER (opcional, para o Google Ads)
+------------------------------------------------
+A página já dispara os eventos de conversão no dataLayer
+(clique no WhatsApp, "Como chegar", telefone, delivery, etc.).
+Quando você tiver o ID do contêiner (GTM-XXXXXXX), me avise que eu
+insiro o código de instalação no arquivo.
